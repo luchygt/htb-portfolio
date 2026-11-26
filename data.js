@@ -5,7 +5,7 @@
 
 const PORTFOLIO = {
   "profile": {
-    "name": "Твоє Ім'я",
+    "name": "Lavro Maksim",
     "nickname": "",
     "title": "Penetration Tester · CTF Player",
     "avatar": "",
