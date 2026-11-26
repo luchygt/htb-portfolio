@@ -6,25 +6,25 @@
 const PORTFOLIO = {
   "profile": {
     "name": "Lavro Maksim",
-    "nickname": "",
+    "nickname": "lavromm280607",
     "title": "Курсант групи ННІ 4 - 24 -202Кб",
     "avatar": "",
     "about": "",
-    "htbProfile": "https://app.hackthebox.com/profile/000000",
-    "rank": "Hacker",
-    "location": "Україна",
+    "htbProfile": "https://profile.hackthebox.com/profile/01a0b511-f220-73cb-9dd6-2e1fc39bf421?utm_medium=copy_url",
+    "rank": "Apprentice",
+    "location": "Україна, Кам'янець-Подільський",
     "links": [
       {
         "label": "GitHub",
-        "url": "https://github.com/your_nick"
-      },
-      {
-        "label": "LinkedIn",
-        "url": "https://linkedin.com/in/your_nick"
+        "url": "https://github.com/luchygt"
       },
       {
         "label": "Email",
-        "url": "mailto:you@example.com"
+        "url": "lavromaksim280607@gmail.com"
+      },
+      {
+        "label": "Cisco Network Academy",
+        "url": "https://www.netacad.com/profile?&tab=profile"
       }
     ]
   },
