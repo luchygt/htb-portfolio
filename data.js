@@ -6,7 +6,7 @@
 const PORTFOLIO = {
   "profile": {
     "name": "Твоє Ім'я",
-    "nickname": "your_nick",
+    "nickname": "",
     "title": "Penetration Tester · CTF Player",
     "avatar": "",
     "about": "Займаюсь offensive security: web, Active Directory, privilege escalation. Тут зібрані мої сертифікати, бейджі та пройдені машини й челенджі на Hack The Box.",
