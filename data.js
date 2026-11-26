@@ -34,6 +34,123 @@ const PORTFOLIO = {
   },
   "certificates": [
     {
+      "title": "Intro to Network Traffic Analysis",
+      "issuer": "Hack The Box",
+      "date": "2026-11-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-200138-mwxv05xl.png",
+      "file": "",
+      "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/81",
+      "description": ""
+    },
+    {
+      "title": "Introduction to Networking",
+      "issuer": "Hack The Box",
+      "date": "2026-11-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-200102-mwxuze0s.png",
+      "file": "",
+      "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/34",
+      "description": ""
+    },
+    {
+      "title": "MacOS Fundamentals",
+      "issuer": "Hack The Box",
+      "date": "2026-11-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-200009-mwxuyabj.png",
+      "file": "",
+      "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/157",
+      "description": ""
+    },
+    {
+      "title": "Windows Fundamentals",
+      "issuer": "Hack The Box",
+      "date": "2026-11-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-195934-mwxuxhlm.png",
+      "file": "",
+      "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/49",
+      "description": ""
+    },
+    {
+      "title": "Linux Fundamentals",
+      "issuer": "Hack The Box",
+      "date": "2026-11-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-195358-mwxuqcgk.png",
+      "file": "",
+      "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/18",
+      "description": ""
+    },
+    {
+      "title": "Setting Up",
+      "issuer": "Hack The Box",
+      "date": "2026-11-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-195254-mwxuoztz.png",
+      "file": "",
+      "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/87",
+      "description": ""
+    },
+    {
+      "title": "Endpoint Security",
+      "issuer": "Cisco Netwrok Academy",
+      "date": "2026-10-05",
+      "image": "assets/certs/снимок-экрана-2026-11-26-195157-mwxunruc.png",
+      "file": "assets/certs/endpoint_security_certificate_lavromaksim280607-gmail-com_04e531c6-346b-42cd-ab1f-a192a90aabf6-mwxunh6l.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Cyber Threat Management",
+      "issuer": "Cisco Netwrok Academy",
+      "date": "2026-10-05",
+      "image": "assets/certs/снимок-экрана-2026-11-26-195055-mwxumf67.png",
+      "file": "assets/certs/cyber_threat_management_certificate_lavromaksim280607-gmail-com_99109acb-5c2c-4c64-b6bb-1077e0dce469-mwxum4l4.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Network Defense",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-10-05",
+      "image": "assets/certs/снимок-экрана-2026-11-26-194959-mwxul8nx.png",
+      "file": "assets/certs/network_defense_certificate_lavromaksim280607-gmail-com_482890e9-535a-4751-9189-7f3bdab4707e-mwxukx8k.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Ethical Hacker",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-09-25",
+      "image": "assets/certs/снимок-экрана-2026-11-26-194849-mwxujqo9.png",
+      "file": "assets/certs/ethical_hacker_certificate_lavromaksim280607-gmail-com_cd16a4d1-8cc9-4be5-8bdd-8499b0f083e6-1-mwxujfyc.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Introduction to Cybersecurity",
+      "issuer": "Cisco Netwrok Academy",
+      "date": "2026-03-29",
+      "image": "assets/certs/снимок-экрана-2026-11-26-194749-mwxuietz.png",
+      "file": "assets/certs/introduction_to_cybersecurity_certificate_lavromaksim280607-gmail-com_dd651e76-71b6-40c5-a84d-71a1215a6b09-1-mwxui32e.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Exploring Internet of Things with Cisco Packet Tracer",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-10-03",
+      "image": "assets/certs/снимок-экрана-2026-11-26-194629-mwxugqig.png",
+      "file": "assets/certs/exploring_iot_with_cisco_packet_tracer_certificate_lavromaksim280607-gmail-com_d07ff6cf-2226-49d8-938c-6368d8dca563-mwxugeti.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Introduction to IoT and Digital Transformation",
+      "issuer": "Cisco Network Academyf",
+      "date": "2026-10-03",
+      "image": "assets/certs/снимок-экрана-2026-11-26-194517-mwxuf7ug.png",
+      "file": "assets/certs/introduction_to_iot_certificate_lavromaksim280607-gmail-com_fc256bc4-7ec2-44bb-be05-8a065d504bf4-mwxueso4.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
       "title": "Exploring Networking with Cisco Packet Tracer",
       "issuer": "Cisco Netwrork Academy",
       "date": "2026-10-03",
