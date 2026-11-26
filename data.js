@@ -7,9 +7,9 @@ const PORTFOLIO = {
   "profile": {
     "name": "Lavro Maksim",
     "nickname": "",
-    "title": "Penetration Tester · CTF Player",
+    "title": "Курсант групи ННІ 4 - 24 -202Кб",
     "avatar": "",
-    "about": "Займаюсь offensive security: web, Active Directory, privilege escalation. Тут зібрані мої сертифікати, бейджі та пройдені машини й челенджі на Hack The Box.",
+    "about": "",
     "htbProfile": "https://app.hackthebox.com/profile/000000",
     "rank": "Hacker",
     "location": "Україна",
