@@ -225,6 +225,78 @@ const PORTFOLIO = {
   ],
   "badges": [
     {
+      "name": "Intro to Network Traffic Analysis",
+      "image": "assets/badges/снимок-экрана-2026-11-26-211803-mwxxqeq9.png",
+      "date": "",
+      "description": "https://academy.hackthebox.com/achievement/badge/02f9c11a-e9c3-11f1-8591-0affe7dfeb45"
+    },
+    {
+      "name": "Introduction to Networking",
+      "image": "assets/badges/снимок-экрана-2026-11-26-211733-mwxxprpe.png",
+      "date": "",
+      "description": "https://academy.hackthebox.com/achievement/badge/d9229109-c96b-11f1-9524-0affe7dfeb45"
+    },
+    {
+      "name": "MacOS Fundamentals",
+      "image": "assets/badges/снимок-экрана-2026-11-26-211702-mwxxp3sv.png",
+      "date": "",
+      "description": "https://academy.hackthebox.com/achievement/badge/320275fa-c96a-11f1-9524-0affe7dfeb45"
+    },
+    {
+      "name": "Windows Fundamentals",
+      "image": "assets/badges/снимок-экрана-2026-11-26-211628-mwxxoe4n.png",
+      "date": "",
+      "description": "https://academy.hackthebox.com/achievement/badge/1badc431-c582-11f1-9524-0affe7dfeb45"
+    },
+    {
+      "name": "Linux Fundamentals",
+      "image": "assets/badges/снимок-экрана-2026-11-26-211549-mwxxnk8b.png",
+      "date": "",
+      "description": "https://academy.hackthebox.com/achievement/badge/87a49964-c57e-11f1-9524-0affe7dfeb45"
+    },
+    {
+      "name": "Setting Up",
+      "image": "assets/badges/снимок-экрана-2026-11-26-211509-mwxxmr1u.png",
+      "date": "",
+      "description": "https://academy.hackthebox.com/achievement/badge/fed7186f-c57a-11f1-9524-0affe7dfeb45"
+    },
+    {
+      "name": "Endpoint Security",
+      "image": "assets/badges/endpoint-security-mwxxla2i.png",
+      "date": "2026-10-05",
+      "description": "https://www.credly.com/badges/fd4d0b18-c25c-462f-b1aa-bc3eee2488a4/public_url"
+    },
+    {
+      "name": "Cyber Threat Management",
+      "image": "assets/badges/cyber-threat-management-mwxxjlo4.png",
+      "date": "2026-10-05",
+      "description": "https://www.credly.com/badges/e7e00077-b523-4a99-ab97-d76aa5483323/public_url"
+    },
+    {
+      "name": "Network Defense",
+      "image": "assets/badges/network-defense-mwxxhhvk.png",
+      "date": "2026-10-05",
+      "description": "https://www.credly.com/badges/e12a83e3-655d-4a88-85ab-5e29c5a8ec1b/public_url"
+    },
+    {
+      "name": "Ethical Hacker",
+      "image": "assets/badges/ethical-hacker-mwxxg5ah.png",
+      "date": "2026-09-25",
+      "description": "https://www.credly.com/badges/5e533c17-c488-4a5d-82e1-56c7103616f9/public_url"
+    },
+    {
+      "name": "Introduction to Cybersecurity",
+      "image": "assets/badges/introduction-to-cybersecurity-mwxxev7y.png",
+      "date": "2026-03-29",
+      "description": "https://www.credly.com/badges/6658a6b0-d1c7-43d0-b00b-badac1a47a3c/public_url"
+    },
+    {
+      "name": "Introduction to IoT",
+      "image": "assets/badges/introduction-to-iot-mwxxc8ky.png",
+      "date": "2026-10-03",
+      "description": "https://www.credly.com/badges/8822889c-2bb3-473e-9abf-2d1deda43a5c/public_url"
+    },
+    {
       "name": "Network Support and Security",
       "image": "assets/badges/network-support-and-security-mwxx5ibg.png",
       "date": "2026-09-29",
