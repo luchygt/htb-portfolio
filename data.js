@@ -225,6 +225,30 @@ const PORTFOLIO = {
   ],
   "badges": [
     {
+      "name": "Network Addressing and Basic Troubleshooting",
+      "image": "assets/badges/network-addressing-and-basic-troubleshooting-mwxx3dz3.png",
+      "date": "2026-09-29",
+      "description": "https://www.credly.com/badges/f0279982-2014-449a-9ca0-fbca98c08612/public_url"
+    },
+    {
+      "name": "Networking Devices and Initial Configuration",
+      "image": "assets/badges/networking-devices-and-initial-configuration-mwxx1zz2.png",
+      "date": "2026-09-26",
+      "description": "https://www.credly.com/badges/190d16e2-19f0-4a74-9a38-23bdae57a380/public_url"
+    },
+    {
+      "name": "Networking Basics",
+      "image": "assets/badges/networking-basics-mwxx0eyu.png",
+      "date": "2026-04-26",
+      "description": "https://www.credly.com/badges/aa1e1940-7f7e-405f-a781-59686139352a/public_url"
+    },
+    {
+      "name": "Operating Systems Basics",
+      "image": "assets/badges/operating-systems-basics-mwxwx3hb.png",
+      "date": "2026-09-25",
+      "description": "https://www.credly.com/badges/eaa95f5d-e3df-4f0b-9160-ad7436b766eb/public_url"
+    },
+    {
       "name": "Computer Hardware Basics",
       "image": "assets/badges/computer-hardware-basics-1-mwxwielt.png",
       "date": "2026-09-23",
