@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Адмін-панель · Портфоліо</title>
+  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="admin.css?v=2" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙</text></svg>" />
+</head>
+<body class="admin">
+  <!-- LOGIN -->
+  <div class="login-wrap" id="login">
+    <form class="login-card" id="login-form" autocomplete="off">
+      <h1><span class="hex">⬢</span> Адмін-панель</h1>
+      <p class="muted">Зміни зберігаються прямо у твій репозиторій на GitHub. Редагувати може лише той, у кого є токен із правом запису в цей репозиторій.</p>
+
+      <div class="row2">
+        <label>Власник (логін GitHub)<input id="l-owner" required /></label>
+        <label>Репозиторій<input id="l-repo" required /></label>
+      </div>
+      <label>Гілка<input id="l-branch" value="main" required /></label>
+      <label>Токен доступу
+        <input id="l-token" type="password" placeholder="github_pat_…" required />
+      </label>
+      <label class="check"><input type="checkbox" id="l-remember" /> Запам'ятати на цьому пристрої</label>
+
+      <button class="btn primary wide" type="submit">Увійти</button>
+      <p class="error" id="l-error" hidden></p>
+
+      <details class="help">
+        <summary>Як отримати токен?</summary>
+        <ol>
+          <li>Відкрий <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Fine-grained token</a>.</li>
+          <li><b>Repository access</b> → <i>Only select repositories</i> → обери репозиторій сайту.</li>
+          <li><b>Permissions → Repository → Contents</b>: <i>Read and write</i>.</li>
+          <li>Згенеруй токен і встав його сюди. Нікому його не показуй.</li>
+        </ol>
+      </details>
+      <button type="button" class="link-btn" id="offline-btn">Працювати без GitHub (лише завантажити data.js)</button>
+    </form>
+  </div>
+
+  <!-- EDITOR -->
+  <div class="editor" id="editor" hidden>
+    <header class="topbar">
+      <div class="tb-left">
+        <span class="logo"><span class="hex">⬢</span> Адмін-панель</span>
+        <span class="repo-pill" id="repo-pill"></span>
+        <span class="dirty-dot" id="dirty" hidden>● незбережені зміни</span>
+      </div>
+      <div class="tb-right">
+        <a class="btn" href="./" target="_blank" rel="noopener">Відкрити сайт ↗</a>
+        <button class="btn" id="download-btn" title="Завантажити data.js на комп'ютер">⬇ data.js</button>
+        <button class="btn" id="deploy-btn" hidden title="Завантажити всі файли сайту з цього комп'ютера в репозиторій">⇪ Опублікувати весь сайт</button>
+        <button class="btn primary" id="save-btn">💾 Зберегти</button>
+        <button class="btn" id="logout-btn" title="Вийти">⎋</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="side" id="tabs"></aside>
+      <main class="panel" id="panel"></main>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="admin.js?v=2"></script>
+</body>
+</html>

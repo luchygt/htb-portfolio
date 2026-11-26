@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфоліо · Hack The Box</title>
+  <meta name="description" content="Сертифікати, бейджі, машини та челенджі Hack The Box" />
+  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬢</text></svg>" />
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top"><span class="hex">⬢</span> <span id="nav-nick">portfolio</span></a>
+    <button class="burger" id="burger" aria-label="Меню">☰</button>
+    <nav id="menu">
+      <a href="#about">Про мене</a>
+      <a href="#certificates">Сертифікати</a>
+      <a href="#badges">Бейджі</a>
+      <a href="#machines">Машини</a>
+      <a href="#challenges">Челенджі</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <p class="prompt"><span class="accent">root@htb</span>:<span class="blue">~</span>$ <span id="typed"></span><span class="cursor">▋</span></p>
+        <h1 id="p-name"></h1>
+        <p class="subtitle" id="p-title"></p>
+        <p class="about" id="p-about"></p>
+        <div class="meta" id="p-meta"></div>
+        <div class="links" id="p-links"></div>
+      </div>
+      <div class="hero-avatar" id="p-avatar"></div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" id="stats"></section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+      <h2><span class="accent">#</span> Сертифікати</h2>
+      <div class="grid certs" id="certs-grid"></div>
+    </section>
+
+    <!-- BADGES -->
+    <section id="badges">
+      <h2><span class="accent">#</span> Бейджі</h2>
+      <div class="grid badges" id="badges-grid"></div>
+    </section>
+
+    <!-- MACHINES -->
+    <section id="machines">
+      <h2><span class="accent">#</span> Машини</h2>
+      <div class="toolbar">
+        <input type="search" id="m-search" placeholder="Пошук за назвою або тегом…" />
+        <div class="chips" id="m-diff"></div>
+        <select id="m-os"></select>
+      </div>
+      <div class="grid machines" id="machines-grid"></div>
+    </section>
+
+    <!-- CHALLENGES -->
+    <section id="challenges">
+      <h2><span class="accent">#</span> Челенджі</h2>
+      <div class="toolbar">
+        <input type="search" id="c-search" placeholder="Пошук…" />
+        <div class="chips" id="c-diff"></div>
+        <select id="c-cat"></select>
+      </div>
+      <div class="table-wrap">
+        <table class="ch-table">
+          <thead>
+            <tr><th>Назва</th><th>Категорія</th><th>Складність</th><th>Дата</th><th></th></tr>
+          </thead>
+          <tbody id="challenges-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" id="lb-close" aria-label="Закрити">✕</button>
+    <img id="lb-img" alt="" />
+    <p id="lb-caption"></p>
+  </div>
+
+  <!-- data.js вантажиться без кешу, щоб зміни з адмін-панелі було видно одразу -->
+  <script>
+    (function () {
+      var d = document.createElement("script");
+      d.src = "data.js?t=" + Date.now();
+      d.onload = d.onerror = function () {
+        var s = document.createElement("script");
+        s.src = "script.js?v=3";
+        document.body.appendChild(s);
+      };
+      document.body.appendChild(d);
+    })();
+  </script>
+</body>
+</html>
