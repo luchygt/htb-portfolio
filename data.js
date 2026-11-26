@@ -225,5 +225,14 @@ const PORTFOLIO = {
   ],
   "badges": [],
   "machines": [],
-  "challenges": []
+  "challenges": [
+    {
+      "name": "Lucky Dice",
+      "category": "Misc",
+      "difficulty": "Easy",
+      "date": "",
+      "writeup": "https://academy.hackthebox.com/achievement/1737977/81",
+      "tags": []
+    }
+  ]
 };
