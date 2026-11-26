@@ -5,7 +5,7 @@
 
 const PORTFOLIO = {
   "profile": {
-    "name": "Lavro Maksim",
+    "name": "Лавро Максим",
     "nickname": "lavromm280607",
     "title": "Курсант групи ННІ 4 - 24 -202Кб",
     "avatar": "",
@@ -25,6 +25,10 @@ const PORTFOLIO = {
       {
         "label": "Cisco Network Academy",
         "url": "https://www.netacad.com/profile?&tab=profile"
+      },
+      {
+        "label": "TryHackMe",
+        "url": "https://tryhackme.com/p/lavromm280607?utm_campaign=social_share&utm_medium=social&utm_content=profile&cardVersion=24a12ec80236&utm_source=copy&share_date=2026-11-26&sharerId=67a4c1fd46cb291e20571e40"
       }
     ]
   },
