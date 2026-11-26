@@ -225,6 +225,12 @@ const PORTFOLIO = {
   ],
   "badges": [
     {
+      "name": "Network Support and Security",
+      "image": "assets/badges/network-support-and-security-mwxx5ibg.png",
+      "date": "2026-09-29",
+      "description": "https://www.credly.com/badges/a8897d5e-c516-4f14-b7ec-f0326778fbd0/public_url"
+    },
+    {
       "name": "Network Addressing and Basic Troubleshooting",
       "image": "assets/badges/network-addressing-and-basic-troubleshooting-mwxx3dz3.png",
       "date": "2026-09-29",
