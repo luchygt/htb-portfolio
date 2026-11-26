@@ -233,7 +233,7 @@ const PORTFOLIO = {
       "date": "",
       "writeup": "",
       "tags": [],
-      "link": "https://academy.hackthebox.com/achievement/1737977/81"
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/1180"
     }
   ]
 };
