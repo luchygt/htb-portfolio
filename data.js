@@ -36,7 +36,7 @@ const PORTFOLIO = {
     {
       "title": "Intro to Network Traffic Analysis",
       "issuer": "Hack The Box",
-      "date": "2026-11-26",
+      "date": "",
       "image": "assets/certs/снимок-экрана-2026-11-26-200138-mwxv05xl.png",
       "file": "",
       "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/81",
@@ -45,7 +45,7 @@ const PORTFOLIO = {
     {
       "title": "Introduction to Networking",
       "issuer": "Hack The Box",
-      "date": "2026-11-26",
+      "date": "",
       "image": "assets/certs/снимок-экрана-2026-11-26-200102-mwxuze0s.png",
       "file": "",
       "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/34",
@@ -54,7 +54,7 @@ const PORTFOLIO = {
     {
       "title": "MacOS Fundamentals",
       "issuer": "Hack The Box",
-      "date": "2026-11-26",
+      "date": "",
       "image": "assets/certs/снимок-экрана-2026-11-26-200009-mwxuyabj.png",
       "file": "",
       "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/157",
@@ -63,7 +63,7 @@ const PORTFOLIO = {
     {
       "title": "Windows Fundamentals",
       "issuer": "Hack The Box",
-      "date": "2026-11-26",
+      "date": "",
       "image": "assets/certs/снимок-экрана-2026-11-26-195934-mwxuxhlm.png",
       "file": "",
       "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/49",
@@ -72,7 +72,7 @@ const PORTFOLIO = {
     {
       "title": "Linux Fundamentals",
       "issuer": "Hack The Box",
-      "date": "2026-11-26",
+      "date": "",
       "image": "assets/certs/снимок-экрана-2026-11-26-195358-mwxuqcgk.png",
       "file": "",
       "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/18",
@@ -81,7 +81,7 @@ const PORTFOLIO = {
     {
       "title": "Setting Up",
       "issuer": "Hack The Box",
-      "date": "2026-11-26",
+      "date": "",
       "image": "assets/certs/снимок-экрана-2026-11-26-195254-mwxuoztz.png",
       "file": "",
       "credentialUrl": "https://academy.hackthebox.com/achievement/1737977/87",
