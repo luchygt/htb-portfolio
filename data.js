@@ -223,7 +223,14 @@ const PORTFOLIO = {
       "description": ""
     }
   ],
-  "badges": [],
+  "badges": [
+    {
+      "name": "Computer Hardware Basics",
+      "image": "assets/badges/computer-hardware-basics-1-mwxwielt.png",
+      "date": "2026-09-23",
+      "description": "https://www.credly.com/badges/e99d4740-dce1-4058-a41d-7aee12ecac56/public_url"
+    }
+  ],
   "machines": [],
   "challenges": [
     {
