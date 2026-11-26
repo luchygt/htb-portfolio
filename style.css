@@ -244,6 +244,10 @@ h2 .accent {
 .ch-table tbody tr { transition: background .15s; }
 .ch-table tbody tr:hover { background: #f6faf5; }
 .ch-name { font-weight: 600; }
+.ch-link { color: var(--text); }
+.ch-link .ext { color: var(--accent); font-size: .8em; }
+.ch-link:hover { color: var(--accent-strong); }
+.ch-links { white-space: nowrap; font-size: .85rem; }
 .ch-cat { font-size: .86rem; }
 .ch-date { font-size: .84rem; color: var(--muted); white-space: nowrap; }
 

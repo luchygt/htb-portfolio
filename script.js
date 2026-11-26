@@ -172,11 +172,13 @@
     const list = challenges.filter((c) => matches(c, q, cDiffs, "category", cat));
     $("challenges-body").innerHTML = list.length ? list.map((c) => `
       <tr>
-        <td class="ch-name">${esc(c.name)}${c.tags && c.tags.length ? ` <span class="tags" style="display:inline-flex">${c.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span>` : ""}</td>
+        <td class="ch-name">${c.link
+          ? `<a class="ch-link" href="${esc(c.link)}" target="_blank" rel="noopener" title="Відкрити челендж">${esc(c.name)} <span class="ext">↗</span></a>`
+          : esc(c.name)}${c.tags && c.tags.length ? ` <span class="tags" style="display:inline-flex">${c.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span>` : ""}</td>
         <td class="ch-cat">${CAT_ICON[String(c.category).toLowerCase()] || "🏁"} ${esc(c.category || "")}</td>
         <td><span class="diff ${diffClass(c.difficulty)}">${esc(c.difficulty || "")}</span></td>
         <td class="ch-date">${fmtDate(c.date)}</td>
-        <td>${c.writeup ? link(c.writeup, "Райтап →", "") : ""}</td>
+        <td class="ch-links">${link(c.link, "Челендж ↗", "")}${c.link && c.writeup ? " · " : ""}${c.writeup ? link(c.writeup, "Райтап →", "") : ""}</td>
       </tr>`).join("") : `<tr><td colspan="5" class="empty">// нічого не знайдено</td></tr>`;
   }
   renderChallenges();

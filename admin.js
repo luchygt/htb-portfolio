@@ -67,12 +67,13 @@
     },
     challenges: {
       label: "Челенджі", icon: "🏁", titleKey: "name",
-      blank: () => ({ name: "New Challenge", category: "Web", difficulty: "Easy", date: today(), writeup: "", tags: [] }),
+      blank: () => ({ name: "New Challenge", category: "Web", difficulty: "Easy", date: today(), link: "", writeup: "", tags: [] }),
       fields: [
         { k: "name", l: "Назва" },
         { k: "date", l: "Дата", t: "date" },
         { k: "category", l: "Категорія", t: "select", opts: CATS },
         { k: "difficulty", l: "Складність", t: "select", opts: DIFFS },
+        { k: "link", l: "Посилання на виконаний челендж (HTB)", t: "url", full: true },
         { k: "tags", l: "Теги (через кому)", t: "tags", full: true },
         { k: "writeup", l: "Посилання на райтап (тільки retired)", t: "url", full: true },
       ],
