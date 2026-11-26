@@ -37,9 +37,9 @@ const PORTFOLIO = {
       "title": "Computer Hardware Basics",
       "issuer": "Cisco Network Academy",
       "date": "2026-09-23",
-      "image": "",
+      "image": "assets/certs/снимок-экрана-2026-11-26-191204-mwxt8ogt.png",
       "file": "assets/certs/computer_hardware_basics_certificate_lavromaksim280607-gmail-com_a93a987f-ca8f-43f7-b73a-0946fee407f4-mwxt3r68.pdf",
-      "credentialUrl": "https://www.netacad.com/certificates/?issuanceId=a93a987f-ca8f-43f7-b73a-0946fee407f4",
+      "credentialUrl": "",
       "description": ""
     }
   ],
