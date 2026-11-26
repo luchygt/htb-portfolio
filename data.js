@@ -34,6 +34,24 @@ const PORTFOLIO = {
   },
   "certificates": [
     {
+      "title": "Networking Basics",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-04-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-192258-mwxtmmkv.png",
+      "file": "assets/certs/networking_basics_certificate_lavromaksim280607-gmail-com_87bdd8e8-5e91-4624-98c1-f0d53a16e21d-mwxtlxht.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Operating Systems Basics",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-09-25",
+      "image": "assets/certs/снимок-экрана-2026-11-26-191609-mwxtf3vw.png",
+      "file": "assets/certs/operating_systems_basics_certificate_lavromaksim280607-gmail-com_aa92075e-190a-434c-8ec4-1a52266882ef-mwxtecv9.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
       "title": "Computer Hardware Basics",
       "issuer": "Cisco Network Academy",
       "date": "2026-09-23",
