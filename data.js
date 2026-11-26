@@ -227,6 +227,87 @@ const PORTFOLIO = {
   "machines": [],
   "challenges": [
     {
+      "name": "Execute",
+      "category": "Pwn",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/640",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "ShinyHunter",
+      "category": "Misc",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/701",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "Secure Server",
+      "category": "Misc",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/769",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "r0bob1rd",
+      "category": "Pwn",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/837",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "Broken Shell",
+      "category": "Misc",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/883",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "Not Posixtive",
+      "category": "Misc",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/952",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "SokobanHTB",
+      "category": "GamePwn",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/1036",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "Last Call",
+      "category": "Pwn",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/1851",
+      "writeup": "",
+      "tags": []
+    },
+    {
+      "name": "CubeMadness1",
+      "category": "GamePwn",
+      "difficulty": "Easy",
+      "date": "",
+      "link": "https://labs.hackthebox.com/achievement/challenge/2238268/302",
+      "writeup": "",
+      "tags": []
+    },
+    {
       "name": "Lucky Dice",
       "category": "Misc",
       "difficulty": "Easy",
