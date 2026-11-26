@@ -34,6 +34,51 @@ const PORTFOLIO = {
   },
   "certificates": [
     {
+      "title": "Exploring Networking with Cisco Packet Tracer",
+      "issuer": "Cisco Netwrork Academy",
+      "date": "2026-10-03",
+      "image": "assets/certs/снимок-экрана-2026-11-26-193155-mwxty0do.png",
+      "file": "assets/certs/exploring_networking_with_cisco_packet_tracer_certificate_lavromaksim280607-gmail-com_8c72baa8-3835-4484-b7a7-d47c12f06e3d-mwxtxm6y.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Getting Started with Cisco Packet Tracer",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-09-29",
+      "image": "assets/certs/снимок-экрана-2026-11-26-193042-mwxtwgvq.png",
+      "file": "assets/certs/getting_started_with_cisco_packet_tracer_certificate_lavromaksim280607-gmail-com_b251bccb-cfd3-4624-b206-251ed6d7d810-1-mwxtw54o.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Network Support and Security",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-09-29",
+      "image": "assets/certs/снимок-экрана-2026-11-26-192924-mwxtut5x.png",
+      "file": "assets/certs/network_support_and_security_certificate_lavromaksim280607-gmail-com_26d43e41-7956-4a60-9e13-f07e5c6377af-mwxtufni.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Network Addressing and Basic Troubleshooting",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-09-29",
+      "image": "assets/certs/снимок-экрана-2026-11-26-192743-mwxtsmeh.png",
+      "file": "assets/certs/network_addressing_and_basic_troubleshooting_certificate_lavromaksim280607-gmail-com_cdfb7cb8-b5ab-447f-8924-224c0efaa239-1-mwxts4t6.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
+      "title": "Networking Devices and Initial Configuration",
+      "issuer": "Cisco Network Academy",
+      "date": "2026-09-26",
+      "image": "assets/certs/снимок-экрана-2026-11-26-192604-mwxtql36.png",
+      "file": "assets/certs/networking_devices_and_initial_configuration_certificate_lavromaksim280607-gmail-com_4e88a76b-3a1f-4dd5-858b-e3c50b8d33cf-1-mwxtq03f.pdf",
+      "credentialUrl": "",
+      "description": ""
+    },
+    {
       "title": "Networking Basics",
       "issuer": "Cisco Network Academy",
       "date": "2026-04-26",
